@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/color4"
     tools:context=".AddTripActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -133,12 +134,14 @@
 
     <Button
         android:id="@+id/button_add"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:background="@drawable/ic_rounded"
-        android:text="@string/addTrip" />
+        android:background="@color/color3"
+        android:text="@string/addTrip"
+
+        android:textAllCaps="false" />
 
 </RelativeLayout>
