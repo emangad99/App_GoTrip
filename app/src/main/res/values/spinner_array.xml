@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="repeatSpinnerItems">
+        <item>@string/once</item>
+        <item>@string/daily</item>
+        <item>@string/weekly</item>
+        <item>@string/monthly</item>
+    </string-array>
+
+
+    <string-array name="directionSpinnerItems">
+        <item>@string/oneDirection</item>
+        <item>@string/round</item>
+    </string-array>
+
+    <string-array name="languageSpinnerItems">
+        <item>@string/english</item>
+        <item>@string/arabic</item>
+    </string-array>
+</resources>

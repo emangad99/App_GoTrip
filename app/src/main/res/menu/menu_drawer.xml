@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/onGoing_trips_item"
+            android:icon="@drawable/ic_baseline_map"
+            android:title="@string/ongoingTrips" />
+
+        <item
+            android:id="@+id/past_trips_item"
+            android:icon="@drawable/ic_baseline_history"
+            android:title="@string/pastTrips" />
+
+        <item
+            android:id="@+id/map_history_item"
+            android:icon="@drawable/ic_map_2"
+            android:title="@string/mapHistory" />
+
+
+        <item
+            android:id="@+id/settings_item"
+            android:icon="@drawable/ic_baseline_settings"
+            android:title="@string/settings" />
+
+
+        <item
+            android:id="@+id/logout_item"
+            android:icon="@drawable/ic_baseline_logout"
+            android:title="@string/logout" />
+
+
+        <item
+            android:id="@+id/sync_item"
+            android:icon="@drawable/ic_baseline_sync"
+            android:title="@string/sync" />
+    </group>
+
+
+</menu>

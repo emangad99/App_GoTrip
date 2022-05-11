@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269456014473",
+    "project_id": "go-trip-66030",
+    "storage_bucket": "go-trip-66030.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269456014473:android:e824614ab9270c8205da58",
+        "android_client_info": {
+          "package_name": "com.mayv.gotrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269456014473-p9fun4mqal7vhenmc25qivbh442k8c08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoaAYYSa9_32Vvk4TZs1c3oqyC4Ak6o-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269456014473-p9fun4mqal7vhenmc25qivbh442k8c08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
