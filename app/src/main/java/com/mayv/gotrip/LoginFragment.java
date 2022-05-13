@@ -55,6 +55,7 @@ public class LoginFragment extends Fragment {
         loginEmail = view.findViewById(R.id.login_email);
         loginPassword = view.findViewById(R.id.login_password);
         mFirebaseAuth = FirebaseAuth.getInstance();
+        /*
         Button signInButton = view.findViewById(R.id.button_gmail_login);
 
         signInButton.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +69,8 @@ public class LoginFragment extends Fragment {
                 activityResultLauncher.launch(signInIntent);
             }
         });
+
+         */
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
