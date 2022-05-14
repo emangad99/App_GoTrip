@@ -102,7 +102,6 @@ public class AddTripActivity extends AppCompatActivity {
                         }
                     }
                 }, hour, min, false);
-                mTimePicker.setTitle("Select Time");
                 mTimePicker.show();
             }
         });

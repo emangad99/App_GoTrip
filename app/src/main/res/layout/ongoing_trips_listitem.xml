@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent">
 
     <TextView
@@ -16,12 +18,12 @@
         android:id="@+id/button_delete"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="10dp"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
         android:background="@drawable/ic_baseline_delete"
-        android:backgroundTint="@color/red"/>
+        android:backgroundTint="@color/black" />
 
     <ImageView
         android:id="@+id/label_from"
@@ -141,40 +143,40 @@
 
     <Button
         android:id="@+id/button_start_trip"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/label_directions"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@drawable/ic_rounded"
-        android:backgroundTint="@color/design_default_color_primary"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/customer_button"
         android:text="@string/start"
         android:textColor="@color/white"
-        android:layout_marginBottom="10dp"/>
+        app:backgroundTint="@null" />
 
     <ImageButton
         android:id="@+id/button_notes"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_below="@id/label_directions"
-        android:layout_centerHorizontal="true"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="25dp"
         android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="50dp"
         android:background="@drawable/ic_notes"
-        android:backgroundTint="@color/design_default_color_primary"/>
+        android:backgroundTint="@color/black" />
 
     <ImageButton
         android:id="@+id/button_edit"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_below="@id/label_directions"
+        android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="25dp"
-        android:layout_alignParentStart="true"
         android:background="@drawable/ic_baseline_edit"
-        android:backgroundTint="@color/design_default_color_primary"/>
+        android:backgroundTint="@color/black" />
 
     <TextView
         android:id="@+id/trip_id"

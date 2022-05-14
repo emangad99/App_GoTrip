@@ -26,8 +26,8 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:src="@drawable/ic_baseline_add"
-            android:tint="@color/white"
-            android:backgroundTint="@color/purple_500"/>
+            app:tint="@color/white"
+            android:backgroundTint="@color/color3"/>
 
 
         <ProgressBar

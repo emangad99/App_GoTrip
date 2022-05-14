@@ -18,24 +18,30 @@
             android:id="@+id/map_history_item"
             android:icon="@drawable/ic_map_2"
             android:title="@string/mapHistory" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/other">
+            <menu>
+
+                <item
+                    android:id="@+id/settings_item"
+                    android:icon="@drawable/ic_baseline_settings"
+                    android:title="@string/settings" />
+
+                <item
+                    android:id="@+id/logout_item"
+                    android:icon="@drawable/ic_baseline_logout"
+                    android:title="@string/logout" />
+
+                <item
+                    android:id="@+id/sync_item"
+                    android:icon="@drawable/ic_baseline_sync"
+                    android:title="@string/sync" />
 
 
-        <item
-            android:id="@+id/settings_item"
-            android:icon="@drawable/ic_baseline_settings"
-            android:title="@string/settings" />
-
-
-        <item
-            android:id="@+id/logout_item"
-            android:icon="@drawable/ic_baseline_logout"
-            android:title="@string/logout" />
-
-
-        <item
-            android:id="@+id/sync_item"
-            android:icon="@drawable/ic_baseline_sync"
-            android:title="@string/sync" />
+            </menu>
+        </item>
     </group>
 
 

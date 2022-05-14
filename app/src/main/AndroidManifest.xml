@@ -24,7 +24,8 @@
         android:theme="@style/Theme.GoTrip">
         <activity
             android:name=".NotesActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -38,16 +39,20 @@
             android:value="@string/google_maps_key" />
         <activity
             android:name=".AddTripActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".LoginRegisterActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SplashScreen"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

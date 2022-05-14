@@ -13,13 +13,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/toolbar"
+            app:title="."
+            app:titleTextColor="@color/color4"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/design_default_color_primary"
-            android:id="@+id/toolbar"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
-            app:popupTheme="@style/Theme.AppCompat.DayNight"
-            android:elevation="4dp"/>
+            android:elevation="4dp"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            app:popupTheme="@style/Theme.AppCompat.DayNight.NoActionBar"></androidx.appcompat.widget.Toolbar>
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">

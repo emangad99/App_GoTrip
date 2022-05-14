@@ -9,9 +9,19 @@
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/activity_add_trip.xml" value="0.21240942028985507" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/activity_login_register.xml" value="0.20697463768115942" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/activity_notes.xml" value="0.20697463768115942" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/activity_splash_screen.xml" value="0.21240942028985507" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/fragment_login.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/fragment_map.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/fragment_ongoing_trips.xml" value="0.20697463768115942" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/fragment_register.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/fragment_settings.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/fragment_trip_history.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/nav_header.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/notes_listitem.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/ongoing_trips_listitem.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/layout/trip_history_listitem.xml" value="0.20697463768115942" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/menu/menu_drawer.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2703125" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/App_GoTrip/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2703125" />
         <entry key="..\:/Users/Eman/Downloads/Go Trip/GoTrip/app/src/main/res/layout/activity_main.xml" value="0.12360688956433637" />

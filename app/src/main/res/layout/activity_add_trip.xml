@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/color4"
     tools:context=".AddTripActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textLayout_trip_name"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/LoginTextInputLayoutStyle"
+        android:theme="@style/LoginTextInputLayoutStyle"
+        android:textColorHint="@color/gray"
+        app:boxStrokeColor="@color/gray"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="40dp"
@@ -139,8 +141,10 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:background="@color/color3"
         android:text="@string/addTrip"
+        android:background="@drawable/customer_button"
+        android:textColor="@color/white"
+        app:backgroundTint="@null"
 
         android:textAllCaps="false" />
 
